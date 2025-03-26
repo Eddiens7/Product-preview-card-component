@@ -39,7 +39,7 @@ main{
     font-family: monospace;
     font-size: 1.3em;
     font-weight: 100;
-    color: #ccc;
+    color: #575757;
     padding: 15px 0;
 }
 
@@ -52,7 +52,7 @@ main{
     padding: 10px 0;
     line-height: 30px;
     font-size: 1.1em;
-    color: #ccc;
+    color: #575757;
 }
 
 .price{
@@ -66,7 +66,7 @@ main{
 }
 
 .price span:nth-child(2){
-    color: #ccc;
+    color: #575757;
     vertical-align: 7px;
 }
 
