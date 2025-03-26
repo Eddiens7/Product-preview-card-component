@@ -12,19 +12,77 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 10px;
 }
 
 main{
-    height: 800px;
-    width: 95vw;
+    height: 700px;
+    width: 90vw;
     max-width: 600px;
-    padding: 20px;
+    margin: auto;
     background-color: white;
     border-radius: 20px;
 }
 
-.img{
-    background-color: aqua;
+.img img{
+    height: 300px;
     width: 100%;
-    height: 200px;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+}
+
+.content{
+    padding: 20px;
+}
+
+.product{
+    font-family: monospace;
+    font-size: 1.3em;
+    font-weight: 100;
+    color: #ccc;
+    padding: 15px 0;
+}
+
+.title{
+    font-size: 2em;
+    line-height: 35px;
+}
+
+.description{
+    padding: 10px 0;
+    line-height: 30px;
+    font-size: 1.1em;
+    color: #ccc;
+}
+
+.price{
+    padding-bottom: 10px;
+}
+
+.discount{
+    color: #3D8168;
+    font-size: 2em;
+    margin-right: 20px;
+}
+
+.price span:nth-child(2){
+    color: #ccc;
+    vertical-align: 7px;
+}
+
+button{
+    background-color: #3D8168;
+    padding: 15px;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+button img{
+    padding: 0 10px;
+}
+
+button span{
+    vertical-align: 3px;
 }
